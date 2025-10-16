@@ -1,0 +1,106 @@
+package com;
+
+public class Casa1 {
+
+    private String baño;
+    private String cochera;
+    private String jardin;
+    protected String acera;
+    protected String puerta;
+    protected String patio;
+    public String fachada;
+    public int numero;
+
+    public Casa1(String baño, String puerta, String cochera, String jardin, String acera, String patio, int numero, String fachada) {
+        this.baño = baño;
+        this.puerta = puerta;
+        this.cochera = cochera;
+        this.jardin = jardin;
+        this.acera = acera;
+        this.patio = patio;
+        this.numero = numero;
+        this.fachada = fachada;
+    }
+
+    public Casa1() {
+
+    }
+
+    public String getBaño() {
+        return baño;
+    }
+
+    public void setBaño(String baño) {
+        this.baño = baño;
+    }
+
+    public String getCochera() {
+        return cochera;
+    }
+
+    public void setCochera(String cochera) {
+        this.cochera = cochera;
+    }
+
+    public String getJardin() {
+        return jardin;
+    }
+
+    public void setJardin(String jardin) {
+        this.jardin = jardin;
+    }
+
+    public String getAcera() {
+        return acera;
+    }
+
+    public void setAcera(String acera) {
+        this.acera = acera;
+    }
+
+    public String getPuerta() {
+        return puerta;
+    }
+
+    public void setPuerta(String puerta) {
+        this.puerta = puerta;
+    }
+
+    public String getPatio() {
+        return patio;
+    }
+
+    public void setPatio(String patio) {
+        this.patio = patio;
+    }
+
+    public String getFachada() {
+        return fachada;
+    }
+
+    public void setFachada(String fachada) {
+        this.fachada = fachada;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    @Override
+    public String toString() {
+        return "Casa1{" +
+                "baño='" + baño + '\'' +
+                ", cochera='" + cochera + '\'' +
+                ", jardin='" + jardin + '\'' +
+                ", acera='" + acera + '\'' +
+                ", puerta='" + puerta + '\'' +
+                ", patio='" + patio + '\'' +
+                ", fachada='" + fachada + '\'' +
+                ", numero=" + numero +
+                '}';
+    }
+}
